@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+*{
+	margin: 0;
+	padding: 0; 
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;/*@import*/
+}
+
+body{
+
+}
+
+#menu{
+	/*background-color: #0D4C92;*/
+}
+#logo{
+	font-size: 30px;
+	line-height: 80px;
+	color: #0D4C92;
+}
+
+a{
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul li:hover{
+	color: #59C1BD;
+	border-bottom: 2px solid;
+}
+
+ul li:visited{
+	color: #59C1BD;
+	border-bottom: 2px solid;
+}
+
+i{
+	margin-right: 10px;
+	/*color: #A0E4CB;*/
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 50px;
+
+}
+
+.navbar{
+	display: flex;/*yan yana gelmesini sağlıyor*/
+	align-items: center;/*dikeyde hizalama*/
+	justify-content: space-around;/*eşit aralıkta bölünüyor*/
+	padding: 20px;
+	/*background-color: #CFF5E7;
+	padding: 8px 30px;
+	border-radius: 30px;
+	margin-top: 10px;*/
+}
+
+nav ul li{
+	display: inline-block;/*yan yana dizme*/
+	margin: 20px;
+	margin-top: 35px;
+}
+
+nav li a{
+	color: #59C1BD;
+	font-weight: 600;
+}
+
+nav{
+	/*margin-right: 35%;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#anasayfa{
+	height: 680px;
+	background-image: url("../Resim/anasayfa.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#black{
+	height: 680px;
+	background-color: black;
+	opacity: 0.3;
+}
+
+#icerik{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%,-50%);
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hakkimizda{
+	background-color: #f8f9fa;
+	padding: 70px;
+	text-align: center;
+	/*text-transform: capitalize;*/
+	font-weight: 600;
+}
+
+h3{
+	font-size: 55px;
+	color: #59C1BD;
+	text-shadow: 0px 1px 1px black;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+#containerHakkimizda{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+#sol{
+	float: left;
+	border-right: 3px solid #A0E4CB;
+	font-size: 30px;
+	width: 400px;
+	color: #59C1BD;
+}
+
+#h5sol{
+	line-height: 1.6;
+	font-size: 22px;
+	font-weight: 600;
+	text-shadow: 0px 1px 1px #A0E4CB;
+}
+#h5sol, #sag{
+	 margin: 0;
+	 padding: 0;
+	 margin-top: 20px;
+}
+
+span{
+	font-size: 50px;
+	margin-right: 7px;
+	line-height: 42px;
+	color: #59C1BD;
+	font-weight: 400;
+	float: left;
+	text-shadow: 0px 2px 2px #59C1BD;
+}
+
+#sag{
+	float: right;
+	width: 750px;
+	color: #59C1BD;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 1.8;
+	font-weight: 60;
+	text-shadow: 0px 1px 1px #A0E4CB;
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+.mt100{
+	margin-top: 100px;
+}
+
+#pson{
+	color: #59C1BD;
+	letter-spacing: 1px;
+	font-size: 15px;
+	line-height: 1.8;
+	margin-top: 25px;
+	font-weight: 60;
+	text-shadow: 0px 1px 1px #A0E4CB;
+}
+
+
+
+
+
+
+
+.social{
+	color: #59C1BD;
+	border: 2px solid #59C1BD;
+	padding: 10px;
+	width: 40px;
+	border-radius: 9px;
+	margin: 5px 10px;
+}
+.social:hover{
+	background-color: #CFF5E7;
+}
+
+
+#iletisim{
+	background: url("../Resim/iletisim.jpg");
+	background-size: cover;
+	padding: 10px;
+	text-align: center;
+	height: auto; 
+	height: 730px;
+}
+
+#iletisimOpacty{
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 30px 20px;
+	border-radius: 9px;
+	
+	margin-right: 20%;
+	margin-left: 20%;
+	height: 400px;
+}
+
+#formGrup{
+	width: 100%;
+	/*float: left;*/
+	height: 500px;
+	/*text-align: center;*/
+}
+
+#solform{
+	margin-left: 10%;
+	width: 30%;
+	float: left;
+}
+
+#sagform{
+	margin-right: 10%;
+	width: 30%;
+	float: right;
+}
+
+#textarea{
+	margin-left: 10%;
+	width: 80%;
+}
+#textarea:hove{
+	background-color: white;
+	border-style: solid;
+	color: #59C1BD;
+}
+
+.form-control{
+	width: 100%;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 1.5;
+	background-color: white;
+	margin: 10px;
+	border-radius: 9px;
+	border: 2px solid black;
+}
+
+.form-control:hover{
+	border-color: #59C1BD;
+}
+
+input[type="submit"]{
+	display: inline-block;
+	color: white;
+	background-color: #59C1BD;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 9px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+input[type="submit"]:hover{
+	background-color: white;
+	border-style: solid;
+	color: #59C1BD;
+}
+
+#copyright{
+	margin-top: 10px;
+	color: #59C1BD;
+	line-height: 1.6;
+	font-size: 22px;
+	font-weight: 600;
+	text-shadow: 0px 1px 1px #A0E4CB;
+}

@@ -1,0 +1,33 @@
+.makalecontainer{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+#makaleler{
+	background-color: #fff;
+	padding: 50px;
+	text-align: center;
+	height: 700px;
+}
+
+.card{
+	width: 320px;
+	height: 350px;
+	border: 1px solid #ddd;
+	padding: 0;
+	display: inline-block;
+}
+
+.cardbaslik{
+	font-size: 15px;
+	color: #59C1BD;
+}
+
+.cardp{
+	color: #888;
+}
+
+.card:hover{
+	border: 2px solid gray;
+}
